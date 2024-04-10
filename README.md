@@ -1,3 +1,5 @@
+G.Mohanraj
+21223060166
 # VLSI-LAB-EXPERIMENTS
 AIM: To simulate and synthesis Logic Gates,Adders and Subtractor using Xilinx ISE.
 
@@ -40,8 +42,6 @@ Full Subtractor:
 
 
 VERILOG CODE:
-
-----Type Verilog Code
 
 OUTPUT:
 
