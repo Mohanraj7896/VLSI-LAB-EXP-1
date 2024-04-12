@@ -85,7 +85,7 @@ xor g4(sum,w1,c);
 or g5(carry,w2,w3);
 endmodule
 ```
-OUTPUT:![Screenshot 2024-03-09 135938](https://github.com/Mohanraj7896/VLSI-LAB-EXP-1/assets/166592482/0a0a28be-5261-42a1-98cf-108faca4c
+OUTPUT:![Screenshot 2024-03-08 191226](https://github.com/Mohanraj7896/VLSI-LAB-EXP-1/assets/166592482/58bbbcd3-c8fa-4588-87b7-02c792c91a52)
 
 Half subtractor:
 ```
