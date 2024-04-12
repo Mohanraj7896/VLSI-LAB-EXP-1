@@ -54,13 +54,38 @@ nor(norgate,a,b);
 xnor(xnorgate,a,b);
 not(notgate,a);
 endmodule
-~~~
 
 OUTPUT:
-logic gate
+logic gate:
+
 ![Screenshot 2024-03-09 141907](https://github.com/Mohanraj7896/VLSI-LAB-EXP-1/assets/166592482/1a792b50-aa3d-4842-9adb-2c1fc999a390)
 
-~~~
+Half adder:
+
+module half_adder(a,b,sum,carry);
+input a,b;
+output sum,carry;
+xor g1(sum,a,b);
+and g2(carry,a,b);
+endmodule;
+OUTPUT:
+![Screenshot 2024-03-09 135938](https://github.com/Mohanraj7896/VLSI-LAB-EXP-1/assets/166592482/f4ae9a76-b614-4efc-9ace-db34450f235b)
+
+Full adder:
+
+module full_adder(a,b,c,sum,carry);
+input a,b,c;
+output sum,carry;
+wire w1,w2,w3;
+xor g1(w1,a,b);
+and g2(w3,a,b);
+and g3(w2,w1,c);
+xor g4(sum,w1,c);
+or g5(carry,w2,w3);
+endmodule
+
+OUTPUT:![Screenshot 2024-03-09 135938](https://github.com/Mohanraj7896/VLSI-LAB-EXP-1/assets/166592482/0a0a28be-5261-42a1-98cf-108faca4ce86)
+
 
 
 -----Place a Waveform Generated from Xilinx ISE
