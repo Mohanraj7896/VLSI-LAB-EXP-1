@@ -42,8 +42,26 @@ Full Subtractor:
 
 
 VERILOG CODE:
+~~~
+module logic_gate(a,b,andgate,orgate,xorgate,nandgate,norgate,xnorgate,notgate);
+input a,b;
+output andgate,orgate,xorgate,nandgate,norgate,xnorgate,notgate;
+and(andgate,a,b);
+or(orgate,a,b);
+xor(xorgate,a,b);
+nand(nandgate,a,b);  
+nor(norgate,a,b);
+xnor(xnorgate,a,b);
+not(notgate,a);
+endmodule
+~~~
 
 OUTPUT:
+logic gate
+![Screenshot 2024-03-09 141907](https://github.com/Mohanraj7896/VLSI-LAB-EXP-1/assets/166592482/1a792b50-aa3d-4842-9adb-2c1fc999a390)
+
+~~~
+
 
 -----Place a Waveform Generated from Xilinx ISE
 
