@@ -85,7 +85,53 @@ xor g4(sum,w1,c);
 or g5(carry,w2,w3);
 endmodule
 ```
-OUTPUT:![Screenshot 2024-03-09 135938](https://github.com/Mohanraj7896/VLSI-LAB-EXP-1/assets/166592482/0a0a28be-5261-42a1-98cf-108faca4ce86)
+OUTPUT:![Screenshot 2024-03-09 135938](https://github.com/Mohanraj7896/VLSI-LAB-EXP-1/assets/166592482/0a0a28be-5261-42a1-98cf-108faca4c
+
+Half subtractor:
+```
+module half_subtractor(a,b,diff,borr);
+input a,b;
+output diff,borr;
+wire w1;
+xor g1(diff,a,b);
+not g2(w1,a);
+and g3(borr,w1,b);
+endmodule
+```
+OUTPUT:
+![Screenshot 2024-03-09 142835](https://github.com/Mohanraj7896/VLSI-LAB-EXP-1/assets/166592482/e9837352-3764-4380-a8c8-2afd67c64fc9)
+
+Full subtractor:
+```
+module full_subtractor(a,b,c,diff,borr);
+input a,b,c;
+output diff,borr;
+wire w1,w2,w3;
+xor g1(w1,a,b);
+and g2(w2,~a,b);
+xor g3(diff,w1,c);
+and g4(w3,~w1,c);
+xor g5(borr,w3,w2);
+endmodule
+```
+OUTPUT:
+![Screenshot 2024-03-09 150000](https://github.com/Mohanraj7896/VLSI-LAB-EXP-1/assets/166592482/98028e09-3524-41b3-ac15-4fc4df5c7129)
+
+8 Bit ripple carry adder:
+```
+module Ripplecarry_adder(a,b,c,sum,cout) ;
+ input a,b,c;
+ output sum,cout;
+ wire w1,w2,w3;
+ xor g1(w1,a,b);
+ xor g2(sum,w1,c);
+ and g3(w2,a,b);
+ and g4(w3,w1,c);
+ or g5(cout,w3,w2);
+ endmodule
+```
+OUTPUT:
+![Screenshot 2024-03-12 200005](https://github.com/Mohanraj7896/VLSI-LAB-EXP-1/assets/166592482/38d39f04-b0a5-4932-8266-68dadf707af7)
 
 
 
