@@ -72,6 +72,10 @@ xor g1(sum,a,b);
 and g2(carry,a,b);
 endmodule;
 ```
+HALF ADDER LOGIC DIAGRAM:
+![318347383-8fa622b5-5e52-40f0-9690-833ffb2d832b](https://github.com/Mohanraj7896/VLSI-LAB-EXP-1/assets/166592482/e1a280bb-b610-4863-b646-c77b800f52fa)
+
+
 OUTPUT:
 ![Screenshot 2024-03-09 135938](https://github.com/Mohanraj7896/VLSI-LAB-EXP-1/assets/166592482/f4ae9a76-b614-4efc-9ace-db34450f235b)
 
@@ -88,6 +92,10 @@ xor g4(sum,w1,c);
 or g5(carry,w2,w3);
 endmodule
 ```
+FULL ADDER LOGIC DIAGRAM:
+![318347750-592a4aee-fa19-4a49-a089-51045851fe19](https://github.com/Mohanraj7896/VLSI-LAB-EXP-1/assets/166592482/6a7cda5d-72f6-4460-aa01-5bf048fbe3b2)
+
+
 OUTPUT:![Screenshot 2024-04-12 151628](https://github.com/Mohanraj7896/VLSI-LAB-EXP-1/assets/166592482/ab9b61a5-3bbd-4cae-91d6-d60f1b4dbf1b)
 
 Half subtractor:
@@ -101,6 +109,10 @@ not g2(w1,a);
 and g3(borr,w1,b);
 endmodule
 ```
+HALF SUBTRACTOR LOGIC DIAGRAM:
+![318348072-2d7824ed-0b1f-4ea0-bafc-1753a75d2b74](https://github.com/Mohanraj7896/VLSI-LAB-EXP-1/assets/166592482/f6e05e7f-98d0-41a1-b0a1-a9699808ef1b)
+
+
 OUTPUT:
 ![Screenshot 2024-03-09 142835](https://github.com/Mohanraj7896/VLSI-LAB-EXP-1/assets/166592482/e9837352-3764-4380-a8c8-2afd67c64fc9)
 
@@ -117,6 +129,10 @@ and g4(w3,~w1,c);
 xor g5(borr,w3,w2);
 endmodule
 ```
+FULL SUBTRACTOR LOGIC DIAGRAM:
+![318348261-5acb458d-4b6d-418c-bfcb-fba40635778a](https://github.com/Mohanraj7896/VLSI-LAB-EXP-1/assets/166592482/ee98c485-670a-485e-b92b-c358bd973394)
+
+
 OUTPUT:
 ![Screenshot 2024-03-09 150000](https://github.com/Mohanraj7896/VLSI-LAB-EXP-1/assets/166592482/98028e09-3524-41b3-ac15-4fc4df5c7129)
 
@@ -133,6 +149,10 @@ module Ripplecarry_adder(a,b,c,sum,cout) ;
  or g5(cout,w3,w2);
  endmodule
 ```
+8 BIT RPC:
+![318348492-e7a32599-b9ed-4f79-a00c-ee58657e5e07](https://github.com/Mohanraj7896/VLSI-LAB-EXP-1/assets/166592482/2b70a383-9004-4fa6-bd9d-ec18ee1c2154)
+
+
 OUTPUT:
 ![Screenshot 2024-03-12 200005](https://github.com/Mohanraj7896/VLSI-LAB-EXP-1/assets/166592482/38d39f04-b0a5-4932-8266-68dadf707af7)
 
