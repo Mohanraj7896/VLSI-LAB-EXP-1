@@ -56,8 +56,7 @@ not(notgate,a);
 endmodule
 ```
 LOGIC DIAGRAM:
-
-![318347383-8fa622b5-5e52-40f0-9690-833ffb2d832b](https://github.com/Mohanraj7896/VLSI-LAB-EXP-1/assets/166592482/8eb99b69-b6fd-44e2-b6fd-602c9e11289c)
+![318347009-6881dbeb-686d-4a10-a17e-fe9cb11ae4d3](https://github.com/Mohanraj7896/VLSI-LAB-EXP-1/assets/166592482/7e64cf7c-fc1a-4e46-96df-333470629f04)
 
 OUTPUT:
 logic gate:
