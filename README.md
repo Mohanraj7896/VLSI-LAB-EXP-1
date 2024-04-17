@@ -55,6 +55,10 @@ xnor(xnorgate,a,b);
 not(notgate,a);
 endmodule
 ```
+LOGIC DIAGRAM:
+
+![318347383-8fa622b5-5e52-40f0-9690-833ffb2d832b](https://github.com/Mohanraj7896/VLSI-LAB-EXP-1/assets/166592482/8eb99b69-b6fd-44e2-b6fd-602c9e11289c)
+
 OUTPUT:
 logic gate:
 
