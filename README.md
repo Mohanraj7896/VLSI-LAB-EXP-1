@@ -48,7 +48,6 @@ LOGIC DIAGRAM:
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXPERIMENTS/assets/6987778/ee17970c-3ac9-4603-881b-88e2825f41a4)
 
-Logic Gates: image
 ```
 module logic_gate(a,b,andgate,orgate,xorgate,nandgate,norgate,xnorgate,notgate);
 input a,b;
@@ -69,6 +68,12 @@ logic gate:
 ![Screenshot 2024-03-09 141907](https://github.com/Mohanraj7896/VLSI-LAB-EXP-1/assets/166592482/1a792b50-aa3d-4842-9adb-2c1fc999a390)
 
 Half adder:
+
+LOGIC DIAGRAM:
+
+
+![image](https://github.com/navaneethans/VLSI-LAB-EXPERIMENTS/assets/6987778/0e1ecb96-0c25-4556-832b-aeeedfdfe7b9)
+
 ```
 module half_adder(a,b,sum,carry);
 input a,b;
