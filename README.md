@@ -43,6 +43,8 @@ Full Subtractor:
 
 VERILOG CODE:
 ```
+LOGIC DIAGRAM:VLSI-LAB-EXP-1/README.md at main · Mohanraj7896/VLSI-LAB-EXP-1 (github.com)
+
 module logic_gate(a,b,andgate,orgate,xorgate,nandgate,norgate,xnorgate,notgate);
 input a,b;
 output andgate,orgate,xorgate,nandgate,norgate,xnorgate,notgate;
